@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+    <modules>
+        <mod code = "bg_slider" active = "1" type_id = "6" params = '' has_tab="1" label = "Background Slider" description = "Background Slider" />
+    </modules>
+</install>

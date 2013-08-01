@@ -1,0 +1,11 @@
+.container {
+	margin: 0 auto;
+}
+
+.showinput {
+	zoom: 1; /*offre le layout à un élément (*)*/
+   	display: inline;
+}
+
+#mail input {display: inline;}
+#mail input[type='email'] {width: 309px;padding: 0px 20px;}

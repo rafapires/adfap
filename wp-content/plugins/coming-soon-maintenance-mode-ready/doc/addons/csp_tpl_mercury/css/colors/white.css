@@ -1,0 +1,3 @@
+/* Light color scheme */
+body { color: rgba(17, 26, 24, 0.9); background-color: #E6E2DA; background-image: url(../../img/pattern_white.jpg);}
+#countdown {color: rgba(17, 26, 24, 0.9);}

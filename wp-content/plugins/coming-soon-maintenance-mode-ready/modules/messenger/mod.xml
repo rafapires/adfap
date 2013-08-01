@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : messenger/mod.xml
+    Description:
+        Description of all configuration options for Pages Module
+-->
+
+<config>
+    <params>
+        <param name="mail_from" type="text" label="From Email" description="You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used." />
+        <param name="mail_from_name" type="text" label="From Name" description="You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress." />
+        <param name="mailer" type="selectbox" label="Mailer" values="smtp,mail" default="mail" description="You can send all WordPress emails via SMTP or the PHP mail() function." />
+        <param name="mail_set_return_path" type="checkbox" label="Set Reply Address" default="0" values="1" description="Set the reply address to match the From Email" />
+        <param name="smtp_host" type="text" label="SMTP Host" default="localhost" description="These options only apply if you have chosen to send mail by SMTP above." />
+        <param name="smtp_port" type="text" label="SMTP Port" default="25" description="These options only apply if you have chosen to send mail by SMTP above." />
+        <param name="smtp_ssl" type="selectbox" label="Encryption" default="none" values="none,ssl,tls" description="You can set security encryption if your server supports it." />
+        <param name="smtp_auth" type="checkbox" label="Authentication" default="0" values="1" description="If this is set to no, the values below are ignored." />
+        <param name="smtp_user" type="text" label="Username" default="" description="Set username for SMTP server" />
+        <param name="smtp_pass" type="password" label="Password" default="" description="Set password for SMTP server" />
+    </params>
+</config>

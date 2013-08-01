@@ -1,0 +1,166 @@
+body {
+	padding: 0; height:100%; margin:0;
+}
+
+a {color: #565656; font-weight: 700; text-decoration: none;}
+a:hover, a:focus {color: #cc361d; text-decoration: none;}
+
+body.full-background {
+	overflow: hidden;
+}
+.toeErrorMsg {
+    color: red;
+    font-weight: bold;
+}
+.toeSuccessMsg {
+    color: green;
+    font-weight: bold;
+}
+#top {
+	min-height: 100px;
+	background: url('img/top_background.png');
+	text-align: center;
+	width: 100%;
+	/*border-top: 1px solid rgba(255, 255, 255, 0.2);*/
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+#top h1 {
+	padding: 50px 0;
+	font-weight: 300;
+	font-size: 50px;
+	margin: 0;
+	color: #fff;
+	text-shadow: 0 2px 0 #000;
+}
+
+#progressBar {
+	height:6px;
+	width: 100%;
+	background: #0b0b0d;
+}
+#bar {background:#222;height: 6px;display: block;position: relative;}
+#bar .ui-progressbar-value {background: #cc361d; height: 100%;}
+#endBar {
+	background: url(img/end_bar.png) center no-repeat;
+	display: block;
+	width: 15px;
+	height: 18px;
+	position: absolute;
+	left:0;
+	top: -5px;
+}
+#endProgressBar {
+	background: url(img/progress_bar_end.png) no-repeat;
+	display: block;
+	width: 1px;
+	height: 18px;
+	position: absolute;
+	right: 0px;
+	top: -5px;
+}
+#popupBar {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -7px;
+	font-size: 11px;
+	font-weight: 700;
+	background: #CC361D;
+	color: #FFF;
+	padding: 2px 5px;
+	box-shadow: 0 1px 0 #AAA;
+	border: 1px solid #901b08;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0 1px 0 #e45f48 inset;
+}
+
+#wrapper {margin-top:50px;}
+
+#timer {	
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	line-height: 1;
+}
+#timer .countdown_amount {
+	font-family: "BebasNeue";
+	font-size: 90px;
+	font-weight: 300;
+}
+#top #timer {
+	color: #FFF;
+	padding-bottom: 70px;	
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+
+#cspSubscribeForm {display:block; margin: 50px auto; width: 510px;text-align: center}
+#cspSubscribeForm input[name="email"] {
+	color: #b0b0b0;
+	border: 1px solid #a9a9a9;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	border-radius:0;
+	padding: 5px 20px;
+	height:40px;
+	font-size: 11px;
+	font-weight: 700;
+	margin: 0px 15px 0 0;
+}
+#cspSubscribeForm input[name="email"]:focus {border: 1px solid #818181;}
+#cspSubscribeForm input[type="submit"] {
+	height: 40px;
+	border: 1px solid #901b08;
+	background: #cc361d;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 0 1px 0 #881a07;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0 1px 0 #e45f48 inset;
+}
+#cspSubscribeForm input[type="submit"]:hover {background: #d3381e;}
+#cspSubscribeForm input[type="submit"]:focus {background: #bb311a;}
+#cspSubscribeForm .success {
+	font-size: 25px;
+	text-align:center;
+}
+.showinput {display: inline-block;}
+
+.divide {margin: 35px 0; background-color: #dbdbdb; height: 1px; width: 100%;}
+.divide.no-bg {background: #fff;}
+
+.logo {text-align: center; margin: 25px 0;}
+
+
+.popover {width: 75px;}
+.popover-title {text-align:center;font-size: 11px;font-weight: bold;}
+.popover-content {text-align: center;}
+
+#footer {text-transform: uppercase; font-size: 11px; color: #a9a9a9; padding-bottom: 10px; margin-top:-20px;}
+#footer strong {color: #565656; font-weight: 700;}
+#footer .leftSide {float:left;}
+#footer .rightSide {float:right;}
+#footer .spacer {padding: 0 5px;}
+#footer .join-us {padding:15px 0 0; color: #000;}
+#footer .join-us .more {font-size:11px; background: #000; color: #FFF; padding: 1px 4px;}
+#footer .join-us:hover .more {background: #CC361D}
+.full-background #footer .join-us {color: #fff;}
+
+@media (max-width: 767px) {
+
+	#cspSubscribeForm {width: 275px;text-align: center;}
+	#cspSubscribeForm input[name="email"] {width: 150px;display: inline;}
+	#cspSubscribeForm input[type="submit"] {width: 100px;display: inline;}
+
+	#timer {width: 100%;}
+	#timer .hascountdown {padding: 0 10px;}
+	#timer .countdown_amount {
+		font-family: "BebasNeue";
+		font-size: 70px;
+		font-weight: 300;
+	}
+
+	#footer {text-align: center;}
+	#footer .leftSide, #footer .rightSide {float:none; display: block;}
+
+	.row > div {
+		margin-bottom: 35px;
+	}
+}

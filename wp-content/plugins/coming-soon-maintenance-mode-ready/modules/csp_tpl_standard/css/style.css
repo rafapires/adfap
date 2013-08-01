@@ -1,0 +1,39 @@
+.toeErrorMsg {
+    color: red;
+    font-weight: bold;
+}
+.toeSuccessMsg {
+    color: green;
+    font-weight: bold;
+}
+
+body, html {position:relative; margin:0; padding:0;}
+
+#fullScreenBg {position: fixed; top: 0; left: 0; width: 100%; min-height: 100%;}
+
+.cspHtmlContainerWrapper {width:760px; padding:20px; position:relative; margin:0 auto; background:rgba(0,0,0,0.5); -webkit-border-radius: 8px; border-radius: 8px;}
+    .cspHtmlLogo {text-align:center;}
+        .cspHtmlLogo img {max-width:740px;}
+    .cspTextInfo {text-align:center; text-shadow:0 1px 0 #000;}
+        .cspTextDescription {}
+        
+    .cspSubscribeForm {color:#fff; position:relative; margin:30px 0 0 185px;}   
+        .cspFormHint {position:absolute; bottom:-26px; height:15px; left:0; display:none; background:#000; padding:5px; -webkit-border-radius: 3px; border-radius: 3px; font-size:12px; color:#fff; font-family:Verdana, sans-serif; text-shadow:0 1px 0 #000; }   
+        .cspFormHintCorner {width:10px; height:15px; background:url(img/corner.png) no-repeat; display:block; position:absolute; top:-7px; left:0;}
+        .cspSubscribeForm input[type="text"] {height:20px; line-height:16px; font-size:16px; border:none; padding:5px; width:300px; -webkit-border-radius: 3px; border-radius: 3px;}
+        .cspSubscribeForm input[type="text"]:focus {-webkit-box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.2); box-shadow: inset 0px 1px 3px 1px rgba(0, 0, 0, 0.2); outline:none;}
+        #cspSubscribeButton {height:30px; background:#0185cc url(img/button-bg.png) repeat-x; text-shadow:0 1px 0 #5e5cab; border:1px solid #1878ee; color:#fff; -webkit-border-radius: 3px; border-radius: 3px;}
+        #cspSubscribeButton:hover {background:#0185cc url(img/sub-button-bg.png) repeat-x; cursor:pointer;}
+        #cspSubscribeCreateMsg {}
+            #cspSubscribeCreateMsg.toeErrorMsg {color:#fff; background:#db0e0e; font-family:Verdana, sans-serif; font-size:12px; position:absolute; top:1px; left:-140px; height:30px; padding:0 5px; line-height:30px; -webkit-border-radius: 3px; border-radius: 3px;}
+            #csp_dev_link {position:absolute; bottom:5px; right:5px; color:rgba(0,0,0,0.2);}
+            #csp_dev_link:hover {color:rgba(0,0,0,0.8);}
+#cspSubscribeButton {
+    -webkit-transition: background 400ms ease;
+    -moz-transition: background 400ms ease;
+    -ms-transition: background 400ms ease;
+    -o-transition: background 400ms ease;
+    transition: background 400ms ease;
+}        
+
+.cspSocIcons {margin:20px auto; text-align:center;}
