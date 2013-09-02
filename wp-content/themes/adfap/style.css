@@ -15,6 +15,14 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 @import url('css/bootstrap.css'); 
 @import url('css/bootstrap-responsive.css'); 
 body { 
-     padding-top: 60px; 
+     padding-top: 0px; 
      padding-bottom: 40px; 
-} 
+}
+
+/*	##########################
+	###       header       ###
+	########################## */
+
+.acima-menu {
+padding: 10px 0px;
+}

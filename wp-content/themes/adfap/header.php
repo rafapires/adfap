@@ -18,30 +18,36 @@
     <?php wp_head(); ?>
   </head>
   <body>
+    <div class="container">
+        <div class="acima-menu">
+          <a class="brand" href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/adfap-menu.png"></a>
+          <span class="slogan">Cuidando do seu bem como se fosse nosso</span>
+        </div>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            
+            <div class="nav-collapse collapse navbar-responsive-collapse">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              
-              <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+              <nav class="menu">                  <!-- Main nav -->
+                <?php wp_nav_menu(array(
+                        'container'       => false,
+                        'items_wrap'      => '<ul id="%1$s" class="%2$s nav">%3$s</ul>',
+                        'walker'          => new twitter_bootstrap_nav_walker
+                        ));
+                ?>
+            </nav>  
 
-            </ul>
-            <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="Email">
-              <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
-            </form>
-          </div><!--/.nav-collapse -->
+
+
+            </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
     </div>
-
     <div class="container">
