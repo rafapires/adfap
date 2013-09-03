@@ -23,8 +23,79 @@ body {
 	###       header       ###
 	########################## */
 
+#header {
+background-image:url('img/header-site.png');
+background-repeat:no-repeat;
+background-position:right bottom;
+background-size: 1380px;
+}
+
+#header .navbar {
+	margin-bottom: 0px;
+}
 .acima-menu {
 padding: 10px 0px;
+}
+
+.slogan h1 {
+font-size: 20px;
+line-height: 120%;
+font-style: italic;
+}
+
+.acima-menu .span4 {
+	width: 231px;
+}
+.acima-menu img {
+	margin-bottom: 10px;
+}
+.acima-menu .span3 {
+	width: 416px;
+}
+
+.acima-menu .span5 {
+    width: 253px;
+}
+
+.acima-menu .form-inline {
+top: 72px;
+position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#header {
+		background-size: 1200px;
+	}
+	.acima-menu .span3 {
+		width: 200px;
+	}
+
+
+
+}
+
+@media (max-width: 767px) {
+
+	#header {
+		background-size: 1380px;
+	}
+	.acima-menu img{
+		margin-left: 240px;
+		margin-bottom: 0px;
+	}
+	.acima-menu .span3 {
+		width: 100%;
+	}
+	.acima-menu .span5 {
+		width: 100%;
+	}
+
+	.acima-menu .form-inline {
+		top: 12px;
+		position: relative;
+		right: 10px;
+	}
 }
 
 /*	###########################
@@ -49,4 +120,8 @@ margin: 0px;
 font-weight: bold;
 font-style: italic;
 font-size: 21px;
+}
+
+#conteudo-central img.pull-left {
+margin: 5px 12px 5px 0px;
 }

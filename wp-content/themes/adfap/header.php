@@ -18,36 +18,52 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class($class); ?>>
-    <div class="container">
-        <div class="acima-menu">
-          <a class="brand" href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/adfap-menu.png"></a>
-          <span class="slogan">Cuidando do seu bem como se fosse nosso</span>
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="acima-menu">
+            <div class="span4">
+              <a class="brand text-center" href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/adfap-menu.png"></a>
+            </div>
+            <div class="slogan span3">
+              <h1 class="text-center">Cuidando do seu bem como se fosse nosso</h1>
+            </div>
+            <div class="span5">
+              <form class="form-inline pull-right">
+                <input type="text" class="input-small" placeholder="Email">
+                <input type="password" class="input-small" placeholder="Senha">
+                <button type="submit" class="btn btn-small">Ok</button>
+              </form>
+            </div>
+          </div>
         </div>
-      <div class="navbar">
-        <div class="navbar-inner">
-          <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            
-            <div class="nav-collapse collapse navbar-responsive-collapse">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              
+              <div class="nav-collapse collapse navbar-responsive-collapse">
 
-              <nav class="menu">                  <!-- Main nav -->
-                <?php wp_nav_menu(array(
-                        'container'       => false,
-                        'items_wrap'      => '<ul id="%1$s" class="%2$s nav">%3$s</ul>',
-                        'walker'          => new twitter_bootstrap_nav_walker
-                        ));
-                ?>
-            </nav>  
+                <nav class="menu">                  <!-- Main nav -->
+                  <?php wp_nav_menu(array(
+                          'container'       => false,
+                          'items_wrap'      => '<ul id="%1$s" class="%2$s nav">%3$s</ul>',
+                          'walker'          => new twitter_bootstrap_nav_walker
+                          ));
+                  ?>
+              </nav>  
 
 
 
-            </div><!--/.nav-collapse -->
+              </div><!--/.nav-collapse -->
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
+    
+    <div id="conteudo-central" class="container">
