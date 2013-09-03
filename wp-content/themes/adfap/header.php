@@ -17,7 +17,7 @@
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php body_class($class); ?>>
     <div class="container">
         <div class="acima-menu">
           <a class="brand" href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/adfap-menu.png"></a>

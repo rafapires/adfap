@@ -26,3 +26,27 @@ body {
 .acima-menu {
 padding: 10px 0px;
 }
+
+/*	###########################
+	###   condomínio.php    ###
+	########################### */
+
+
+.page-id-27 h2 {
+font-size: 24px;
+}
+
+.page-id-27 li {
+list-style: none;
+}
+
+.page-id-27 ul {
+margin: 0px;
+}
+
+.page-id-27 blockquote {
+margin: 0px;
+font-weight: bold;
+font-style: italic;
+font-size: 21px;
+}
