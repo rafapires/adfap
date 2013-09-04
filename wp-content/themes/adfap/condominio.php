@@ -16,7 +16,7 @@
 		<div class="accordion" id="accordion1">
 	        <div class="accordion-group">
 				<div class="accordion-heading">
-                	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv1">
+                	<a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv1">
 						Contabilidade
                     </a>
 				</div>
@@ -28,7 +28,7 @@
             </div>
             <div class="accordion-group">
 				<div class="accordion-heading">
-					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv2">
+					<a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv2">
 						Departamento Pessoal
                     </a>
 				</div>
@@ -40,7 +40,7 @@
 			</div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv3">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv3">
 						Assessoria Judídica
                     </a>
 				</div>
@@ -52,7 +52,7 @@
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv4">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv4">
 						Apoio total ao Síndico
                     </a>
 				</div>
@@ -64,7 +64,7 @@
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv5">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv5">
 						Cobrança
                     </a>
 				</div>
@@ -76,7 +76,7 @@
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv6">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv6">
 						Contas a Pagar
                     </a>
 				</div>
@@ -88,7 +88,7 @@
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv7">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv7">
 						Recebimentos
                     </a>
 				</div>
@@ -100,7 +100,7 @@
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv8">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv8">
 						Controle de moradores
                     </a>
 				</div>
@@ -112,7 +112,7 @@
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#serv9">
+                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv9">
 						Controle de fornecedores
                     </a>
 				</div>
