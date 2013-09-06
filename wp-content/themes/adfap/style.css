@@ -104,6 +104,15 @@ position: relative;
 	margin-top: 10px;
 }
 
+/*	#####################
+	###   home.php    ###
+	##################### */
+
+.home .hero-unit h1 {
+font-size: 35px;
+margin-bottom: 14px;
+}
+
 /*	###########################
 	###   condomínio.php    ###
 	########################### */
