@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="span7">
-		<h1>Administração de Condomínios</h1>
+		<h1>Admnistração de Condomínios</h1>
 		<img class="pull-left" src="http://localhost/adfap/wp-content/uploads/2013/09/parceria-predios.jpg" />
 		<p>Ser um real parceiro do síndico é nosso objetivo, muito mais do que administrar a contabilidade, pessoal, pagamentos e recebimentos, criamos uma relação pro-ativa junto ao síndico, conselheiros e moradores, levando soluções e oportunidades que fazem sentido para as características únicas de seu condomínio.</p>
 		<p>Através da internet, o síndico tem total controle sobre seu condomínio, acompanhando em tempo real cada ação de nossa dedicada equipe.</p>
@@ -17,12 +17,12 @@
 	        <div class="accordion-group">
 				<div class="accordion-heading">
                 	<a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv1">
-						Contabilidade
+						Gestão Administrativa
                     </a>
 				</div>
 				<div id="serv1" class="accordion-body collapse">
 					<div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+						Através da nossa equipe altamente qualificada e nossos recursos tecnológicos a administração do seu condomínio é descomplicada ao máximo, organizando os documentos, o cadastro dos proprietários, controle de prazos e responsabilidades legais, transcrição de atas, coleta de orçamentos, transpareência aos condôminos e etc...
 					</div>
 				</div>
             </div>
@@ -34,7 +34,7 @@
 				</div>
 				<div id="serv2" class="accordion-body collapse">
 					<div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+						Nada é mais complicado, e chato, controlar toda documentação e burocracia de funcionários, nossa equipe cuida de todo processo necessário para a contratação ou desligamento de seus funcionários, além é lógico de auxiliar na escala de férias e folguistas.
                     </div>
 				</div>
 			</div>
@@ -46,7 +46,7 @@
 				</div>
 				<div id="serv3" class="accordion-body collapse">
                     <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    	Entender os meandros das leis trabalhistas e outras relacionadas a condomínios é parte importante para evitar processos. Nossa equipe jurídica está sempre pronta e atualizada para tirar todas as dúvidas e orientar o síndico e condôminos para a melhor solução custo benefício.
                     </div>
 				</div>
             </div>
@@ -58,7 +58,7 @@
 				</div>
 				<div id="serv4" class="accordion-body collapse">
                     <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    	Auxiliar o síndico nas novidades referentes ao mercado de condomínios, novidades em segurança, maquinários, leis, manutenção predial e etc... São inúmeras as formas como apoiamos o síndico para que ele possa se dedicar à gestão humana do condomínio criando um ambiente armonioso de bons vizinhos.
                     </div>
 				</div>
             </div>
@@ -70,7 +70,7 @@
 				</div>
 				<div id="serv5" class="accordion-body collapse">
                     <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    	Não basta emitir os boletos, nossa equipe é preparada para acompanhar os pagamentos dos condomínios e apontar os devedores  e quais os melhores procedimentos de cobrança, tanto
                     </div>
 				</div>
             </div>
@@ -82,43 +82,19 @@
 				</div>
 				<div id="serv6" class="accordion-body collapse">
                     <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    	Lembrar a data correta de pagar os fornecedores toma muito tempo e cuidado, nosso departamento financeiro não só cuida disso como também está treinado para as mais novas soluções em pagamento eletrônico de todos os bancos, mantendo todo o controle e transparência dos pagamentos com o síndico mas com a facilidade de pagamentos pela internet. Nossa equipe treina o sindico no uso destas ferramentas.
                     </div>
 				</div>
             </div>
 			<div class="accordion-group">
 				<div class="accordion-heading">
                     <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv7">
-						Recebimentos
+						Controle de moradores
                     </a>
 				</div>
 				<div id="serv7" class="accordion-body collapse">
                     <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                    </div>
-				</div>
-            </div>
-			<div class="accordion-group">
-				<div class="accordion-heading">
-                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv8">
-						Controle de moradores
-                    </a>
-				</div>
-				<div id="serv8" class="accordion-body collapse">
-                    <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                    </div>
-				</div>
-            </div>
-			<div class="accordion-group">
-				<div class="accordion-heading">
-                    <a class="accordion-toggle label label-info" data-toggle="collapse" data-parent="#accordion1" href="#serv9">
-						Controle de fornecedores
-                    </a>
-				</div>
-				<div id="serv9" class="accordion-body collapse">
-                    <div class="accordion-inner">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                    	Quanto mais o tempo passa, mais os vizinhos mudam. São novos moradores, uns locatários, outros proprietários, outros funcionários de empresas e etc... Mantemos os cadastros completos e atualizados e ainda fornecemos um canal de fácil comunicação com nossa equipe através do nosso site.
                     </div>
 				</div>
             </div>
