@@ -29,10 +29,16 @@
               <h1 class="text-center">Cuidando do seu bem como se fosse nosso</h1>
             </div>
             <div class="span5">
-              <form class="form-inline pull-right" action="http://webware.com.br/bin/login.asp" method="post">
+              <div class="row-fluid">
+                <div class="cabecalho-login pull-right">
+                  <p class="label">Acesse seu condomínio</p>
+                  <a href="http://www.webware.com.br/bin/administradora/cadastro.asp?adm=18545180" target="_blank"> ou Cadastre-se</a>
+                </div>
+              </div>
+              <form class="form-inline pull-right" action="http://webware.com.br/bin/login.asp" method="post" target="_blank">
                 <input type="hidden" name="urlErro" value="http://www.webware.com.br/bin/administradora/default.asp?adm=18545180&amp;msg=ERRO">
                 <input type="hidden" name="a" value="18545180">
-                <input type="text" name="mem" class="input-small" placeholder="Email">
+                <input type="text" name="mem" class="input-small" placeholder="Login">
                 <input type="password" name="pass" class="input-small" placeholder="Senha">
                 <button type="submit" name="submit" class="btn btn-small">Entrar</button>
               </form>

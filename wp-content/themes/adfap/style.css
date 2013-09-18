@@ -60,8 +60,24 @@ font-style: italic;
 }
 
 .acima-menu .form-inline {
-top: 72px;
+top: 46px;
 position: relative;
+}
+
+.acima-menu .span5 a {
+color: #6082A7;
+font-weight: bolder;
+}
+
+.acima-menu .label {
+background-color: #C34848;
+}
+
+.cabecalho-login.pull-right {
+margin: 0px 28px 0px 0px;
+padding: 0px;
+position: relative;
+top: 16px;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -72,6 +88,8 @@ position: relative;
 	.acima-menu .span3 {
 		width: 182px;
 	}
+
+
 
 
 
@@ -98,6 +116,15 @@ position: relative;
 		position: relative;
 		right: 10px;
 		}
+
+}
+
+@media (min-width: 767px) {
+	.cabecalho-login.pull-right {
+		margin:	0px 9px 0px 0px;
+		top: 50px;
+		left: -10px;
+	}
 }
 
 #conteudo-central { /* coloca um espaço entre o header e o conteúdo */
