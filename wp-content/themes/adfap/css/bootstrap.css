@@ -4468,6 +4468,9 @@ a.thumbnail:focus {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  -webkit-box-shadow: 4px 4px 10px #aaa;
+  -moz-box-shadow: 4px 4px 10px #aaa;
+  box-shadow: 4px 4px 10px #aaa;
 }
 .hero-unit h1 {
   margin-bottom: 0;
