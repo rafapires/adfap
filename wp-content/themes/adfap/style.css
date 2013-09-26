@@ -162,6 +162,39 @@ text-shadow: 1px 1px 2px #000;
 	}
 }
 
+.call-to-action h2 {
+font-size: 18px;
+padding: 0px 0px 0px 10px;
+border-radius: 6px;
+box-shadow: 3px 3px 10px #aaa;
+}
+
+.cor1 {
+	background-color: #F4A2FF;
+}
+
+.cor2 {
+	background-color: #BAFF8E;
+}
+
+.cor3 {
+	background-color: #FFC38E;
+}
+
+.call-to-action p {
+min-height: 160px;
+}
+
+@media (max-width: 976px){
+	.call-to-action h2{
+		line-height: 120%;
+		min-height: 42px;
+		padding: 5px 6px;
+	}
+	.call-to-action p {
+		min-height: 220px;
+	}
+}
 
 /*	###########################
 	###   condomínio.php    ###
