@@ -292,3 +292,12 @@ background-size: 50px;
 background-color: #BAFF8E;
 text-align: left;
 }
+
+/*	##########################
+	###       footer       ###
+	########################## */
+
+.dados, .dados a:hover {
+font-size: 12px;
+text-decoration: none;
+}
