@@ -224,6 +224,27 @@ font-size: 21px;
 margin: 5px 12px 5px 0px;
 }
 
+.proposta.well {
+background: #F18C32;
+box-shadow: 3px 3px 10px #aaa;
+margin-top: 16px;
+}
+
+.proposta h3 {
+text-align: center;
+font-size: 39px;
+padding-bottom: 17px;
+}
+
+.proposta .frm_form_fields.frm_page_num_1 {
+width: 318px;
+float: left;
+margin-left: 50px;
+padding-top: 3px;
+}
+
+
+
 /*	############################
 	###   imobiliaria.php    ###
 	############################ */
