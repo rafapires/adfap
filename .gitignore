@@ -13,6 +13,10 @@ wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
 
+
+wp-content-original/**/*
+wp-content-original/*
+
 wp-content-bk/**/*
 wp-content-bk/*
 wp-admin/**/*
