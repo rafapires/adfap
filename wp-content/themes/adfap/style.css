@@ -1,0 +1,301 @@
+/*
+Theme Name: ADFAP v-0.2.0
+Theme URI: http://adfap.com.br
+Description: Tema desenvolvido especialmente para ADFAP - Administradora de Bens e Condomínios.
+Author: Rafael D´Alessandro Pires
+Author URI: 
+Version: 0.2.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('css/bootstrap.css'); 
+@import url('css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 0px; 
+     padding-bottom: 40px; 
+}
+#conteudo-central p {
+	text-align: justify;
+}
+/*	##########################
+	###       header       ###
+	########################## */
+
+#header {
+background-image:url('img/header-site.png');
+background-repeat:no-repeat;
+background-position:right bottom;
+background-size: 1380px;
+}
+
+#header .navbar {
+	margin-bottom: 0px;
+}
+.acima-menu {
+padding: 10px 0px;
+}
+
+.slogan h1 {
+font-size: 20px;
+line-height: 120%;
+text-transform: uppercase;
+}
+
+.acima-menu .span4 {
+	width: 231px;
+}
+.acima-menu img {
+	margin-bottom: 10px;
+}
+.acima-menu .span3 {
+	width: 398px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.acima-menu .span5 {
+    width: 271px;
+}
+
+.acima-menu .form-inline {
+top: 46px;
+position: relative;
+}
+
+.acima-menu .span5 a {
+color: #6082A7;
+font-weight: bolder;
+font-size: 11px;
+}
+
+.acima-menu .label {
+background-color: #C34848;
+}
+
+.cabecalho-login.pull-right {
+margin: 0px 8px 0px 0px;
+padding: 0px;
+position: relative;
+top: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#header {
+		background-size: 1200px;
+	}
+	.acima-menu .span3 {
+		width: 182px;
+	}
+	.slogan h1{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	#header {
+		background-size: 1380px;
+	}
+	.acima-menu img{
+		margin-bottom: 0px;
+	}
+	.acima-menu .span4 {
+		width: 100%;
+		text-align: center;
+	}
+	.acima-menu .span3 {
+		width: 100%;
+	}
+	.acima-menu .span5 {
+		width: 100%;
+	}
+
+	.acima-menu .form-inline {
+		top: 12px;
+		position: relative;
+		}
+
+}
+
+@media (min-width: 767px) {
+	.cabecalho-login.pull-right {
+		margin:	0px 9px 0px 0px;
+		top: 50px;
+	}
+}
+
+#conteudo-central { /* coloca um espaço entre o header e o conteúdo */
+	margin-top: 10px;
+}
+
+/*	#####################
+	###   home.php    ###
+	##################### */
+
+.home .hero-unit h1 {
+font-size: 35px;
+margin-bottom: 14px;
+}
+.home .hero-unit {
+background-image: url('img/condominio.jpg');
+background-repeat: no-repeat;
+background-size: 946px;
+background-position-y: -20px;
+color: #fff;
+text-shadow: 1px 1px 2px #000;
+}
+
+@media (max-width: 979px) {
+	.home .hero-unit {
+		background-position-x: -200px; 
+	}
+}
+@media (max-width: 545px) {
+	.home .hero-unit {
+		background-position-x: -330px; 
+	}
+}
+
+.call-to-action h2 {
+font-size: 18px;
+padding: 0px 0px 0px 10px;
+border-radius: 6px;
+box-shadow: 3px 3px 10px #aaa;
+}
+
+.cor1 {
+	background-color: #F4A2FF;
+}
+
+.cor2 {
+	background-color: #BAFF8E;
+}
+
+.cor3 {
+	background-color: #FFC38E;
+}
+
+.call-to-action p {
+min-height: 160px;
+}
+
+@media (max-width: 976px){
+	.call-to-action h2{
+		line-height: 120%;
+		min-height: 42px;
+		padding: 5px 6px;
+	}
+	.call-to-action p {
+		min-height: 220px;
+	}
+}
+
+/*	###########################
+	###   condomínio.php    ###
+	########################### */
+
+
+.page-id-27 h2 {
+font-size: 24px;
+}
+
+.page-id-27 li {
+list-style: none;
+}
+
+.page-id-27 ul {
+margin: 0px;
+}
+
+.page-id-27 blockquote {
+margin: 0px;
+font-weight: bold;
+font-style: italic;
+font-size: 21px;
+}
+
+#conteudo-central img.pull-left {
+margin: 5px 12px 5px 0px;
+}
+
+.proposta.well {
+background: #F18C32;
+box-shadow: 3px 3px 10px #aaa;
+margin-top: 16px;
+}
+
+.proposta h3 {
+text-align: center;
+font-size: 39px;
+padding-bottom: 17px;
+}
+
+.proposta .frm_form_fields.frm_page_num_1 {
+width: 318px;
+float: left;
+margin-left: 50px;
+padding-top: 3px;
+}
+
+/*	############################
+	###   imobiliaria.php    ###
+	############################ */
+
+
+.hero-unit h1 {
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.hero-unit .label {
+font-size: 20px;
+padding: 13px 20px;
+}
+
+.page-id-55 .hero-unit {
+padding: 17px 40px 30px;
+margin-bottom: 20px;
+background-color: #FFF1C3;
+background-image: url('img/venda-locacao.jpg');
+background-position: 0px -135px;
+background-repeat: no-repeat;
+background-size: 940px;
+text-shadow: 1px 1px 3px #000;
+color: #fff;
+}
+
+.page-id-55 .hero-unit strong {
+font-weight: bolder;
+color: #09A509;
+}
+
+.texto.well.span3 {
+font-size: 13px;
+text-align: right;
+padding: 10px;
+}
+
+.well.well-warning {
+background-image: url('img/Arrow_Circle_Right.png');
+margin: 10px 0px 0px;
+background-position: 152px 57px;
+background-repeat: no-repeat;
+background-size: 50px;
+background-color: #BAFF8E;
+text-align: left;
+}
+
+/*	##########################
+	###       footer       ###
+	########################## */
+
+.dados, .dados a:hover {
+font-size: 12px;
+text-decoration: none;
+}
