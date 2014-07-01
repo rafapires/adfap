@@ -45,172 +45,47 @@ get_header();
 /* conteúdo dinamico */
 
 
+
 ?>
-	
 	<section class="seta_blog seta_footer" id="blog-home">
 		<div class="container">
 			<H2 class="text-center">BLOG</H2>
 			<div class="row">
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://revistaimoveis.zap.com.br/imoveis/2010/06/cnt_ext_246359ok.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
+				<?php
+				$args = array(	'posts_per_page' 	=> '8',
+								'post_type'			=> 'post',
+								'order'				=> 'ASC'
+						);
+				query_posts($args);
+				while ( have_posts() ) : the_post(); ?>
+					<div class="col-sm-4 col-md-3">
+						<div class="thumbnail">
+							<div class="blog-thumb">
+								<a href="<?php the_permalink(); ?>" >
+								<?php the_post_thumbnail(); ?>
+								<img src="http://revistaimoveis.zap.com.br/imoveis/2010/06/cnt_ext_246359ok.jpg" class="img-responsive" alt="titulo 1">
+								</a>
+							</div>
+							<div class="caption">
+								<a href="<?php the_permalink(); ?>" class="text-branco">
+									<h2><?php the_title(); ?></h2>
+								</a>
+								<p class="content clearfix"><?php echo substr(get_the_excerpt(),0,140) ; ?></p>
+								<div id="blog-home-foot">
+									<div class="blog-home-coment">
+										<span class="glyphicon glyphicon-comment text-branco"></span>
+										<span class="badge cor">
+										<?php comments_number( '0', '1', '%' ); ?>
+										</span>
+									</div>
+									<div class="blog-home-leia">
+										<a href="<?php the_permalink(); ?>" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://3.bp.blogspot.com/-lxGUB-b892A/T5lgDcYMtMI/AAAAAAAAAQk/OUfvNXdivd8/s1600/condominios.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://www.equilibrium7.com.br/wp-content/uploads/2013/07/reuniao-representando-assembleia-em-condominio1.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://internetradio.com.br/wp-content/uploads/condominio%20piscina(2).jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://cdn1.negociofitness.com.br/wp-content/uploads/2012/06/condom%C3%ADnio.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://www.muralha.com.br/imagens/dicas+seguranca/dicas+seguranca+evitar+assaltos+condominios.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://blogaecweb.com.br/blog/wp-content/uploads/2013/06/condominios-residenciais-interior.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-3">
-					<div class="thumbnail">
-						<div class="blog-thumb">
-							<img src="http://condominiosc.com.br/wp-content/uploads/2012/10/seguranca-condominios-hg-20100917.jpg" class="img-responsive" alt="titulo 1">
-						</div>
-						<div class="caption">
-							<h2>Lorem ipsum dolor sit amet.</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis eleifend quam sit amet tincidunt. Donec quis venenatis volutpat.</p>
-							<div id="blog-home-foot">
-								<div class="blog-home-coment">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">24</span>
-								</div>
-								<div class="blog-home-leia">
-									<a href="#" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<?php endwhile; ?>
 			</div>
 		</div>
 	</section>

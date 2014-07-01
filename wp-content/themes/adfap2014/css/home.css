@@ -146,6 +146,7 @@
 	margin: 0px;
 	font-weight: lighter;
 	line-height: 24px;
+	min-height: 180px;
 	}
 
 	#blog-home img.img-responsive {
@@ -159,6 +160,7 @@
 	float: left;
 	background: #aaa;
 	padding: 6px 0px;
+	font-family: monospace;
 	}
 
 
@@ -174,7 +176,7 @@
 	}
 
 	.cor {
-		color: #000;
+		color: #777;
 		background-color: #FFC38E;
 	}
 
