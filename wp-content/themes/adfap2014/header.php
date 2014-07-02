@@ -29,6 +29,6 @@
     <![endif]-->
   <meta name="chromesniffer" id="chromesniffer_meta" content="{&quot;jQuery&quot;:&quot;1.11.1&quot;}"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script></head>
 
-  <body cz-shortcut-listen="true">
+  <body id="<?php echo $post->post_name; ?>" cz-shortcut-listen="true">
 
-    <div class="container-fluid">
+    <div id="post-<?php the_title(); ?>" <?php post_class('container-fluid'); ?>
