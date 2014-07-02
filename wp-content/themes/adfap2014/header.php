@@ -31,4 +31,4 @@
 
   <body id="<?php echo $post->post_name; ?>" cz-shortcut-listen="true">
 
-    <div id="post-<?php the_title(); ?>" <?php post_class('container-fluid'); ?>
+    <div id="post-<?php the_title(); ?>" <?php post_class('container-fluid'); ?>>
