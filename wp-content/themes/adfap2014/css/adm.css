@@ -17,6 +17,7 @@ padding: 0px;
 padding: 0px;
 height: 100% !important;
 background-color: #63EC9A;
+z-index: 10;
 }
 
 #administradora-de-condominio div.container-fluid {
@@ -32,7 +33,7 @@ padding: 0px;
 	padding: 0px;
 }
 
-@media (min-width: 768px)
+@media (min-width: 268px)
 #administradora-de-condominio .navbar > .container .navbar-brand,
 #administradora-de-condominio .navbar > .container-fluid .navbar-brand {
 margin-left: -15px;

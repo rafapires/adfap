@@ -5,7 +5,34 @@ Template Name: ADM
 get_header();
 ?>
 
-<section id="conteudo" class="col-lg-7 col-lg-offset-2">
+<section id="menu" class="col-lg-2">
+
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url'); ?>/img/logo-web-hi.png" class="img-responsive center-block"></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">			
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Messages</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</section>
+
+
+<section id="conteudo" class="col-xs-7 col-xs-offset-2">
 	<h1>Administradora de Condomínio</h1>
 
 			<strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.
@@ -43,49 +70,34 @@ get_header();
 				height: 80px; 
 			}
 			</code></pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
 
+<section id="side-bar" class="col-xs-3">
+	<section id="2-via" class="row">
+		<button class="btn btn-lg center-block"><a href="#">2ª Via boleto</a></button>
 
-
-<section id="menu" class="col-lg-2">
-
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url'); ?>/img/logo-web-hi.png" class="img-responsive center-block"></a>
-			</div>
-
-			<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">			
-				<ul class="nav nav-pills nav-stacked">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Messages</a></li>
-				</ul>
-			</div>
+	</section>
+	<section id="list-blog" class="row">
+		<h2>Leia também</h2>
+		<div class="list-group">
+			<a href="#" class="list-group-item">
+				<img src="http://lorempixel.com/80/80/city/" class="img-rounded pull-left">
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
+			</a>
+			<a href="#" class="list-group-item">
+				<img src="http://lorempixel.com/80/80/city/" class="img-rounded pull-left">
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
+			</a>
+			<a href="#" class="list-group-item">
+				<img src="http://lorempixel.com/80/80/city/" class="img-rounded pull-left">
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
+			</a>
+			<a href="#" class="list-group-item">
+				<img src="http://lorempixel.com/80/80/city/" class="img-rounded pull-left">
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
+			</a>
 		</div>
-	</nav>
+	</section>
 </section>
+
+
