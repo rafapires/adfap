@@ -28,7 +28,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <meta name="chromesniffer" id="chromesniffer_meta" content="{&quot;jQuery&quot;:&quot;1.11.1&quot;}"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script></head>
-
+  <?php wp_head(); ?>
   <body id="<?php echo $post->post_name; ?>" cz-shortcut-listen="true">
 
     <div id="post-<?php the_title(); ?>" <?php post_class('container-fluid'); ?>>
