@@ -1,116 +1,29 @@
-#menu {
-    position:fixed;
-    margin-top: 0px !important;
-    height: 100% !important;
-}
-
-
-body#administradora-de-condominio {
+div#administradora-de-condominio {
 padding: 0px;
 }
 
-#administradora-de-condominio .page {
+section#esquerda {
 padding: 0px;
+background: #BAFF8E;
 }
 
-#administradora-de-condominio section#menu {
-padding: 0px;
-height: 100% !important;
-background-color: #63EC9A;
-z-index: 10;
+#esquerda .navbar-brand {
+height: 160px !important;
+padding-left: 15px;
 }
 
-#administradora-de-condominio div.container-fluid {
-padding: 0px;
-}
-
-#administradora-de-condominio .navbar-header {
-    float: none;
-}
-
-#administradora-de-condominio .navbar-default .navbar-collapse,
-#administradora-de-condominio .navbar-default .navbar-form {
-	padding: 0px;
-}
-
-@media (min-width: 268px)
-#administradora-de-condominio .navbar > .container .navbar-brand,
-#administradora-de-condominio .navbar > .container-fluid .navbar-brand {
-margin-left: -15px;
-}
-
-#administradora-de-condominio a.navbar-brand {
-margin: 0px;
-padding: 0px;
-width: 100%;
+#esquerda .navbar-brand img {
+width: 300px !important;
 height: auto;
-background: #fff;
 }
 
-#administradora-de-condominio .nav {
-font-family: 'ubuntu';
+@media (min-width: 768px) {
+#esquerda .navbar-brand img {
+width: 200px !important;
+height: auto;
 }
-
-#administradora-de-condominio .nav-pills > li.active > a,
-#administradora-de-condominio .nav-pills > li.active > a:hover,
-#administradora-de-condominio .nav-pills > li.active > a:focus {
-color: #ffffff;
-background-color: #3DA76C;
+#esquerda .navbar-brand {
+height: 120px !important;
+padding-left: 15px;
 }
-
-
-#administradora-de-condominio .nav-pills > li > a {
-border-radius: 0px;
 }
-
-#administradora-de-condominio .navbar-default {
-background-color: #63EC9A;
-border: none;
-}
-
-@media (min-width: 768px)
-#administradora-de-condominio .navbar {
-border-radius: 0px;
-}
-
-#administradora-de-condominio .nav > li > a:hover,
-#administradora-de-condominio .nav > li > a:focus {
-text-decoration: none;
-background-color: #50B77D;
-color: #ffffff;
-}
-
-#administradora-de-condominio a {
-	color: #3DA76C;
-}
-
-.active:after {
-content: "";
-display: block;
-width: 0;
-height: 0;
-border-top: 14px solid transparent;
-border-left: 14px solid #3DA76C;
-border-right: 14px solid transparent;
-margin-top: -35px;
-left: 100%;
-margin-left: 0px;
-position: absolute;
-z-index: 15;
-border-bottom: 14px solid transparent;
-}
-
-/* conteudo */
-
-section#conteudo {
-padding-left: 20px;
-background-color: #eeeeee;
-}
-
-#conteudo h1 {
-padding-left: 20px;
-border-bottom: solid 3px #3DA76C;
-padding-bottom: 8px;
-}
-
-

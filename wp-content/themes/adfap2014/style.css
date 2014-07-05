@@ -14,10 +14,12 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 @import url('css/home.css'); 
 @import url('css/adm.css'); 
+@import url('css/bootstrap.css'); 
+
 
 
 body {
-  padding-top: 50px;
+  padding-top: 0px;
 }
 .starter-template {
   padding: 40px 15px;
@@ -26,6 +28,12 @@ body {
 
 a:hover {
 	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	#esquerda {
+		height: 100% !important;
+	}
 }
 
 .text-branco {
