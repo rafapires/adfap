@@ -7,23 +7,82 @@ padding: 0px;
 background: #BAFF8E;
 }
 
-#esquerda .navbar-brand {
-height: 160px !important;
-padding-left: 15px;
+#esquerda div.container-fluid{
+	padding: 0px;
 }
 
-#esquerda .navbar-brand img {
-width: 300px !important;
-height: auto;
+#esquerda nav.navbar-default {
+background-color: #ffffff;
+border: none;
+}
+
+.logo {
+	width: 300px !important;
+	height: auto;
+	padding: 15px;
 }
 
 @media (min-width: 768px) {
-#esquerda .navbar-brand img {
-width: 200px !important;
-height: auto;
+	.logo {
+	width: 100% !important;
+	height: auto;
+	}
+	#esquerda .navbar-brand {
+	height: 120px !important;
+	padding-left: 15px;
+	}
 }
-#esquerda .navbar-brand {
-height: 120px !important;
-padding-left: 15px;
+
+#esquerda div.navbar-header {
+	background-color: #BAFF8E;
 }
+
+#esquerda .navbar-toggle:hover, #esquerda .navbar-toggle:focus {
+background-color: #D5F8BE;
+}
+
+#esquerda div.navbar-collapse {
+	padding: 0px;
+}
+
+#esquerda li {
+padding: 15px;
+background-color: #BAFF8E;
+font-family: 'ubuntu';
+color: #000000;
+margin: 0px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#esquerda li:hover {
+	background-color: #D5F8BE;
+}
+
+#esquerda li.active {
+	background-color: #0FB80F;
+	color: #ffffff;
+}
+
+
+#esquerda ul>li>a {
+	color: inherit;
+	background-color: inherit;
+}
+
+#esquerda ul>li>a:hover{
+	text-decoration: none;
+}
+
+#esquerda li.active::after {
+left: 100%;
+border: solid 20px transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-left-color: #0FB80F;
+top: 15px;
+margin-top: 0px;
 }
