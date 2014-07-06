@@ -8,6 +8,15 @@ background: #BAFF8E;
 z-index: 100;
 }
 
+#esquerda h1 {
+color: #000;
+text-align: center;
+font-size: 18px;
+margin: 0px;
+}
+
+
+
 #esquerda div.container-fluid{
 	padding: 0px;
 }
@@ -35,6 +44,10 @@ border: none;
 	section#esquerda{
 		position: fixed;
 	}
+	#esquerda h1 {
+	font-size: 13px;
+	}
+
 }
 
 #esquerda div.navbar-header {
@@ -102,7 +115,7 @@ margin-top: 0px;
 	}
 }
 
-#meio h1 {
+#meio h2 {
 	border-bottom: solid 3px #000;
 }
 
@@ -112,7 +125,7 @@ margin-top: 0px;
 	background-color: #ffffff;
 }
 
-#direita h2.sub-titulo {
+#direita h3.sub-titulo {
 text-align: right;
 font-size: 22px;
 margin-bottom: 11px;
@@ -127,7 +140,7 @@ padding: 10px;
 }
 
 #direita .nav-stacked > li:hover, #direita .nav-stacked > li:focus{
-background-color: #FDF7E4;
+background-color: #FDF7E4	;
 }
 
 #direita ul.nav-pills > li > a {
@@ -136,7 +149,7 @@ min-height: 50px;
 background-color: inherit;
 }
 
-#direita ul.nav-pills > li > a > h2 {
+#direita ul.nav-pills > li > a > h3 {
 margin: 0px;
 color: green;
 font-size: 16px;
@@ -147,7 +160,7 @@ padding-left: 58px;
 margin-left: 0px;
 }
 
-#direita h2.sub-titulo::after {
+#direita h3.sub-titulo::after {
 border: solid 20px transparent;
 content: " ";
 height: 0;

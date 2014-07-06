@@ -10,6 +10,7 @@ get_header();
   <div class="container-fluid">
 	<a class="logo center-block" href="#">
   		<img src="<?php bloginfo('template_url'); ?>/img/logo-web-hi.png" class="img-responsive center-block">
+		<h1>Administradora de Condomínio</h1>
 	</a>
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -37,11 +38,11 @@ get_header();
 
 </section>
 <section id="meio" class="col-sm-7 col-sm-offset-2">
-	<h1>Administradora de Condomínio</h1>
+	<h2>Administradora de Condomínio</h2>
 	<!-- conteúdo -->
 
 	<strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.
-	<h2>Header Level 2</h2>
+	<h3>Header Level 2</h3>
 	<ol>
 		<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 		<li>Aliquam tincidunt mauris eu risus.</li>
@@ -56,7 +57,7 @@ get_header();
 	Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
 
 	<img src="http://lorempixum.com/300/200" alt="Random image courtesy of LoremPixum.com" />
-	<h2>Header Level 2</h2>
+	<h4>Header Level 2</h4>
 	<ol>
 		<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 		<li>Aliquam tincidunt mauris eu risus.</li>
@@ -79,30 +80,30 @@ get_header();
 
 </section>
 <section id='direita' class='col-sm-3'>
-	<h2 class="sub-titulo">Blogs</h2>
+	<h3 class="sub-titulo">Blogs</h3>
 	<ul class="nav nav-pills nav-stacked">
 		<li>
 			<a href="#">
 				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
-				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
 			</a>
 		</li>
 		<li>
 			<a href="#">
 				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
-				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
 			</a>
 		</li>
 		<li>
 			<a href="#">
 				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
-				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
 			</a>
 		</li>
 		<li>
 			<a href="#">
 				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
-				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+				<h3>Lorem ipsum dolor sit amet orci aliquam.</h3>
 			</a>
 		</li>
 
