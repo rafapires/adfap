@@ -5,6 +5,7 @@ padding: 0px;
 section#esquerda {
 padding: 0px;
 background: #BAFF8E;
+z-index: 100;
 }
 
 #esquerda div.container-fluid{
@@ -30,6 +31,9 @@ border: none;
 	#esquerda .navbar-brand {
 	height: 120px !important;
 	padding-left: 15px;
+	}
+	section#esquerda{
+		position: fixed;
 	}
 }
 
@@ -85,4 +89,19 @@ pointer-events: none;
 border-left-color: #0FB80F;
 top: 15px;
 margin-top: 0px;
+}
+
+/* meio */
+#meio {
+	background-color: #eee;
+}
+
+@media (min-width: 768px) {
+	#meio {
+		padding-left: 25px;
+	}
+}
+
+#meio h1 {
+	border-bottom: solid 3px #000;
 }
