@@ -79,7 +79,34 @@ get_header();
 
 </section>
 <section id='direita' class='col-sm-3'>
-direita
+	<h2 class="sub-titulo">Blogs</h2>
+	<ul class="nav nav-pills nav-stacked">
+		<li>
+			<a href="#">
+				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
+				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
+				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
+				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="http://lorempixel.com/40/40/city/9/" class="thumbnail pull-left">
+				<h2>Lorem ipsum dolor sit amet orci aliquam.</h2>
+			</a>
+		</li>
+
+	</ul>
 </section>
 
 
