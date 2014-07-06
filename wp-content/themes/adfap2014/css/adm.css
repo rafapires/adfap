@@ -63,13 +63,14 @@ background-color: #D5F8BE;
 }
 
 #esquerda li {
-padding: 15px;
+padding: 5px;
 background-color: #BAFF8E;
 font-family: 'ubuntu';
 color: #000000;
 margin: 0px;
 text-transform: uppercase;
 font-weight: bold;
+border-bottom: solid 2px #D5F8BE;
 }
 
 #esquerda li:hover {
@@ -93,7 +94,7 @@ font-weight: bold;
 
 #esquerda li.active::after {
 left: 100%;
-border: solid 20px transparent;
+border: solid 10px transparent;
 content: " ";
 height: 0;
 width: 0;
@@ -117,6 +118,15 @@ margin-top: 0px;
 
 #meio h2 {
 	border-bottom: solid 3px #000;
+}
+
+#meio blockquote {
+padding: 10px 20px;
+margin: 0 0 20px;
+font-size: 17.5px;
+border-left: 5px solid #777777;
+background-color: #fff;
+font-style: italic;
 }
 
 /* direita */
