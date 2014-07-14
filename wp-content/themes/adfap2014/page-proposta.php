@@ -38,11 +38,15 @@ get_header();
 
 </section>
 <section id="meio" class="col-sm-10 col-sm-offset-2 proposta">
-	<h2>Proposta sem compromisso</h2>
-	<!-- conteúdo -->
-	<blockquote>Para ganhar tempo e para que nossa equipe conheça melhor seu condomínio preencha o formulário abaixo com as informações que você achar necessárias e entraremos em contato o mais rápido possível.</blockquote>
-	<div class="well">
-		<h2>OU LIGUE (11)3106-4817 das 9:00 às 17:00</h2>
-	</div>
+<?php
+	if  ( have_posts() ) :
+		while ( have_posts() ) : the_post();
+			the_content();
+		endwhile;
+	else:
+		echo "não achou pagina";
+	endif;
+?>
+</section>
 
 <? get_footer(); ?>
