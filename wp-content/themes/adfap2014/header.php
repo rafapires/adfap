@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="pt-br"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +28,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  <meta name="chromesniffer" id="chromesniffer_meta" content="{&quot;jQuery&quot;:&quot;1.11.1&quot;}"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script></head>
-  <body cz-shortcut-listen="true">
+  <meta name="chromesniffer" id="chromesniffer_meta" content="{&quot;jQuery&quot;:&quot;1.11.1&quot;}"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script>
+  <?php wp_enqueue_script("jquery"); ?>
   <?php wp_head(); ?>
+  </head>
+    <body cz-shortcut-listen="true">
+
     <div id="<?php echo $post->post_name; ?>" <?php post_class('container-fluid'); ?>>

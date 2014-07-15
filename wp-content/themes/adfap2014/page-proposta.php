@@ -49,4 +49,4 @@ get_header();
 ?>
 </section>
 
-<? get_footer(); ?>
+<?php get_footer(); ?>
