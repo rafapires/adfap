@@ -12,11 +12,15 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 */
 
+@import url('css/bootstrap.css'); 
 @import url('css/home.css'); 
+@import url('css/adm.css'); 
+@import url('css/proposta.css'); 
+
 
 
 body {
-  padding-top: 50px;
+  padding-top: 0px;
 }
 .starter-template {
   padding: 40px 15px;
@@ -27,26 +31,15 @@ a:hover {
 	text-decoration: none;
 }
 
-.text-branco {
-	color: #fff;
+@media (min-width: 768px) {
+	#esquerda {
+		height: 100% !important;
+	}
 }
 
-.text-verde {
-	color: #BAFF8E;
-}
-
-.text-azul {
-	color: #B6EBFF;
-}
-
-.text-laranja {
-	color: #FFC38E;
-}
-
-.text-amarelo {
-	color: #FFF1C3;
-}
-
-.text-magenta {
-	color: #F4A2FF;
+.page.container-fluid {
+margin-right: auto;
+margin-left: auto;
+padding-left: 0px;
+padding-right: 0px;
 }
