@@ -1,0 +1,45 @@
+/*
+Theme Name: ADFAP 2014
+Theme URI: http://adfap.com.br
+Description: Tema desenvolvido especialmente para ADFAP - Administradora de Bens e Condomínios.
+Author: Rafael D´Alessandro Pires
+Author URI: 
+Version: 0.0.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('css/bootstrap.css'); 
+@import url('css/home.css'); 
+@import url('css/adm.css'); 
+@import url('css/proposta.css'); 
+
+
+
+body {
+  padding-top: 0px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	#esquerda {
+		height: 100% !important;
+	}
+}
+
+.page.container-fluid {
+margin-right: auto;
+margin-left: auto;
+padding-left: 0px;
+padding-right: 0px;
+}

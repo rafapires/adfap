@@ -1,0 +1,15 @@
+#proposta-administradora-de-condominios .well {
+background-color: rgb(254, 194, 141);
+}
+
+#proposta-administradora-de-condominios #meio .well {
+	background-color: #FEC28D;
+}
+
+#proposta-administradora-de-condominios #meio .well h2 {
+text-align: center;
+border: none;
+font-weight: bolder;
+font-size: -webkit-xxx-large;
+margin: 0px;
+}
