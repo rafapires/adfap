@@ -1,8 +1,11 @@
 <?php
 /*
-Template Name: proposta
+Template Name: full
 */
-get_header('adm');
+$meta = get_post_meta( get_the_ID() );
+get_header($meta['page-group'][0]);
+
+
 ?>
 
 

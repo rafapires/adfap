@@ -2,7 +2,8 @@
 /*
 Template Name: HOME
 */
-get_header();
+$meta = get_post_meta( get_the_ID() );
+get_header($meta['page-group'][0]);
 ?>
 	<section class="seta_header">
 		<div class="row">

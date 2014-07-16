@@ -1,8 +1,9 @@
 <?php
 /*
-Template Name: ADM
+Template Name: RightCol
 */
-get_header('adm');
+$meta = get_post_meta( get_the_ID() );
+get_header($meta['page-group'][0]);
 ?>
 
 <section id="meio" class="col-sm-7 col-sm-offset-2">
