@@ -155,7 +155,7 @@ background-color: #FDF7E4	;
 
 #direita ul.nav-pills > li > a {
 padding: 0px;
-min-height: 50px;
+min-height: 80px;
 background-color: inherit;
 }
 
@@ -166,8 +166,9 @@ font-size: 16px;
 text-align: left;
 font-family: 'Raleway', sans-serif;
 display: block;
-padding-left: 58px;
+padding-left: 90px;
 margin-left: 0px;
+padding-top: 10px;
 }
 
 #direita h3.sub-titulo::after {
@@ -181,4 +182,9 @@ border-top-color: #000;
 right: 19px;
 margin-top: 28px;
 z-index: 100;
+}
+
+#direita img.thumbnail.pull-left.wp-post-image {
+width: 80px;
+height: 80px;
 }
