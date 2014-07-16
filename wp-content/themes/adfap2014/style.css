@@ -10,9 +10,9 @@ Tags: responsive, white, bootstrap
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
-*/
 
 @import url('css/bootstrap.css'); 
+*/
 @import url('css/home.css'); 
 @import url('css/adm.css'); 
 @import url('css/proposta.css'); 
@@ -20,8 +20,12 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 
 body {
-  padding-top: 0px;
+	padding-top: 0px;
+	font-size: 17px;
+	line-height: 1.72857143;
 }
+
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;

@@ -15,7 +15,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" type="text/css" media="all" />
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu|Source+Code+Pro|Raleway' rel='stylesheet' type='text/css' medial="all">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu|Source+Code+Pro|Raleway' rel='stylesheet' type='text/css' media="all">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
     <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>-->
@@ -35,3 +35,38 @@
     <body cz-shortcut-listen="true">
 
     <div id="<?php echo $post->post_name; ?>" <?php post_class('container-fluid'); ?>>
+
+    <section id="esquerda" class="col-xp-12 col-sm-2">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+  <a class="logo center-block" href="<?php echo site_url(); ?>">
+      <img src="<?php bloginfo('template_url'); ?>/img/logo-web-hi.png" class="img-responsive center-block">
+    <h1>Administradora de Condomínio</h1>
+  </a>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <?php
+      wp_nav_menu(
+        array(
+          'container'   =>  false,
+          'items_wrap'  =>  '<ul id="%1$s" class="%2$s nav nav-pills nav-stacked">%3$s</ul>'
+          )
+        );
+    ?>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+</section>
