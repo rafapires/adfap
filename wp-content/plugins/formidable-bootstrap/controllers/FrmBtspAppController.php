@@ -63,7 +63,7 @@ class FrmBtspAppController{
         if(is_admin() and !defined('DOING_AJAX'))
             return;
         
-        wp_enqueue_style('bootstrap', get_template_directory_uri().'/css/bootstrap.css');
+        wp_enqueue_style('bootstrap', get_template_directory_uri().'/style.css');
     }
     
     public static function enqueue_footer_js(){
