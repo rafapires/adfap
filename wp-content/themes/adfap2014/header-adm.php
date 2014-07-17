@@ -58,8 +58,9 @@
     <?php
       wp_nav_menu(
         array(
-          'container'   =>  false,
-          'items_wrap'  =>  '<ul id="%1$s" class="%2$s nav nav-pills nav-stacked">%3$s</ul>'
+          'theme_location'  =>  'main-menu',
+          'container'       =>  false,
+          'items_wrap'      =>  '<ul id="%1$s" class="%2$s nav nav-pills nav-stacked">%3$s</ul>'
           )
         );
     ?>

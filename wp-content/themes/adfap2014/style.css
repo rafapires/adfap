@@ -10,12 +10,12 @@ Tags: responsive, white, bootstrap
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
-
-@import url('css/bootstrap.css'); 
 */
+
 @import url('css/home.css'); 
 @import url('css/adm.css'); 
 @import url('css/proposta.css'); 
+@import url('css/bootstrap.css'); 
 
 
 
@@ -32,7 +32,7 @@ body {
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important	;
 }
 
 @media (min-width: 768px) {
@@ -42,8 +42,9 @@ a:hover {
 }
 
 .page.container-fluid {
-margin-right: auto;
-margin-left: auto;
-padding-left: 0px;
-padding-right: 0px;
+margin-right: auto !important;
+margin-left: auto !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
 }
+

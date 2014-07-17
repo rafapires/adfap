@@ -3,7 +3,11 @@
 Template Name: HOME
 */
 $meta = get_post_meta( get_the_ID() );
-get_header($meta['page-group'][0]);
+get_header('home');
+
+$pagina_adm = get_page_by_title('Administradora de condomínio');
+$pagina_imob = get_page_by_title('Imobiliária');
+
 ?>
 	<section class="seta_header">
 		<div class="row">
@@ -16,29 +20,35 @@ get_header($meta['page-group'][0]);
 	</section>
 	<div id="destaque" class="seta_destaque">
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-1">
-				<div class="thumbnail">
-					<a href="#">
+		<div class="col-xs-6">
+				<a href="<?php echo get_permalink($pagina_adm->ID); ?>">
+			<div class="thumbnail">
+					<h1 class="text-center">Administradora de condomínios</h1>
+					<div class="row">
+					<div class="col-xs-5 text-center">
 					<img src="<?php bloginfo('template_url'); ?>/img/predio.png" alt="administradora de condominios" class="img-circle">
-						<div class="caption text-center">
-							<h1>Administradora de condomínios</h1>
-							<p>Um jeito diferente de administrar seu condomínio com foco na total transparencia e na harmonia social.</p>
-						</div>
-					</a>
-				</div>
+					</div>
+					<div class="col-xs-7">
+					<p>Um jeito diferente de administrar seu condomínio com foco na total transparencia e na harmonia social.</p>
+					</div>
+					</div>
 			</div>
-			<div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<a href="#">
-					<img src="<?php bloginfo('template_url'); ?>/img/casa.png" alt="imobiliaria" class="img-circle">
-						<div class="caption text-center">
-							<h1>Imobiliária</h1>
-							<p>Achamos o imóvel perfeito pra você que procura alugar ou comprar, e pra você que procura vender ou alugar encontramos o melhor cliente com toda a segurança e descomplicação.</p>
-						</div>
-					</a>
-				</div>
+				</a>
+		</div>
+		<div class="col-xs-6">
+				<a href="<?php echo get_permalink($pagina_imob->ID); ?>">
+			<div class="thumbnail">
+					<h1 class="text-center">Imobiliária</h1>
+					<div class="row">
+					<div class="col-xs-5 text-center">
+					<img src="<?php bloginfo('template_url'); ?>/img/casa.png" alt="administradora de condominios" class="img-circle">
+					</div>
+					<div class="col-xs-7">
+					<p>Achamos o imóvel perfeito pra você que procura alugar ou comprar, e pra você que procura vender ou alugar encontramos o melhor cliente com toda a segurança e descomplicação.</p>
+					</div>
+					</div>
 			</div>
+				</a>
 		</div>
 	</div>
 	</div>
