@@ -63,36 +63,60 @@ $pagina_imob = get_page_by_title('Imobiliária');
 			<H2 class="text-center">BLOG</H2>
 			<div class="row">
 				<?php
-				$args = array(	'posts_per_page' 	=> '8',
-								'post_type'			=> 'post',
-								'order'				=> 'ASC'
-						);
-				query_posts($args);
-				while ( have_posts() ) : the_post(); ?>
+				$args = array(
+						    'numberposts'	=> 8,
+						    'offset'		=> 0,
+						    'orderby' 		=> 'post_date',
+						    'order' 		=> 'DESC',
+						    'post_type' => 'post',
+						    'post_status' => 'publish',
+						    'suppress_filters' => true );
+				$recent_posts = wp_get_recent_posts ($args, ARRAY_A);
+				$count_img = rand(1,9);
+
+				foreach ($recent_posts as $post) {
+
+						//verifica sé há thumbnail
+						if ( $count_img >= 9 ) {
+							$count_img = 1;
+						}else{
+							$count_img++;
+						}
+						if ( has_post_thumbnail($post["ID"]) ) {
+							$img_post = get_the_post_thumbnail($post["ID"], "full", array('class'=>'img-responsive'));
+						}
+						else {
+							$img_post = '<img src="http://lorempixel.com/230/150/city/'.$count_img.'" class="img-responsive" alt="random image" />';
+						}
+					 ?>
 					<div class="col-sm-4 col-md-3">
 						<div class="thumbnail">
-							<a href="<?php the_permalink(); ?>" >
+							<a href="<?php echo get_permalink($post["ID"]); ?>" >
 								<div class="blog-thumb">
-									<?php the_post_thumbnail(); ?>
-									<img src="http://revistaimoveis.zap.com.br/imoveis/2010/06/cnt_ext_246359ok.jpg" class="img-responsive" alt="titulo 1">
+									<?php echo $img_post; ?>
 								</div>
-								<h2><?php the_title(); ?></h2>
-								<p class="content clearfix"><?php echo substr(get_the_excerpt(),0,140) ; ?></p>
+								<h2><?php echo esc_attr($post["post_title"]); ?></h2>
+								<p class="content clearfix"><?php echo substr(strip_tags($post["post_content"],"<style>"),0,140) ; ?></p>
 							</a>
 							<div class="row">
 								<div class="col-xs-6 link text-center">
-									<span class="glyphicon glyphicon-comment text-branco"></span>
-									<span class="badge cor">
-									<?php comments_number( '0', '1', '%' ); ?>
-									</span>
+									<a href="<?php echo get_permalink($post["ID"]); ?>/#comentarios" >
+										<span class="glyphicon glyphicon-comment text-branco"></span>
+										<span class="badge cor">
+										<?php comments_number( '0', '1', '%' ); ?>
+										</span>
+									</a>
 								</div>
 								<div class="col-xs-6 link text-center">
-									<a href="<?php the_permalink(); ?>" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
+									<a href="<?php echo get_permalink($post["ID"]); ?>" >
+										<span class="glyphicon glyphicon-eye-open"></span>
+										<strong> Leia</strong>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-				<?php endwhile; ?>
+				<?php } ?>
 			</div>
 		</div>
 	</section>
