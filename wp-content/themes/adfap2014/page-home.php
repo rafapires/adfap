@@ -71,27 +71,23 @@ $pagina_imob = get_page_by_title('Imobiliária');
 				while ( have_posts() ) : the_post(); ?>
 					<div class="col-sm-4 col-md-3">
 						<div class="thumbnail">
-							<div class="blog-thumb">
-								<a href="<?php the_permalink(); ?>" >
-								<?php the_post_thumbnail(); ?>
-								<img src="http://revistaimoveis.zap.com.br/imoveis/2010/06/cnt_ext_246359ok.jpg" class="img-responsive" alt="titulo 1">
-								</a>
-							</div>
-							<div class="caption">
-								<a href="<?php the_permalink(); ?>" class="text-branco">
-									<h2><?php the_title(); ?></h2>
-								</a>
+							<a href="<?php the_permalink(); ?>" >
+								<div class="blog-thumb">
+									<?php the_post_thumbnail(); ?>
+									<img src="http://revistaimoveis.zap.com.br/imoveis/2010/06/cnt_ext_246359ok.jpg" class="img-responsive" alt="titulo 1">
+								</div>
+								<h2><?php the_title(); ?></h2>
 								<p class="content clearfix"><?php echo substr(get_the_excerpt(),0,140) ; ?></p>
-								<div id="blog-home-foot">
-									<div class="blog-home-coment">
-										<span class="glyphicon glyphicon-comment text-branco"></span>
-										<span class="badge cor">
-										<?php comments_number( '0', '1', '%' ); ?>
-										</span>
-									</div>
-									<div class="blog-home-leia">
-										<a href="<?php the_permalink(); ?>" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
-									</div>
+							</a>
+							<div class="row">
+								<div class="col-xs-6 link text-center">
+									<span class="glyphicon glyphicon-comment text-branco"></span>
+									<span class="badge cor">
+									<?php comments_number( '0', '1', '%' ); ?>
+									</span>
+								</div>
+								<div class="col-xs-6 link text-center">
+									<a href="<?php the_permalink(); ?>" class="text-branco"><span class="glyphicon glyphicon-eye-open"></span><strong> Leia</strong></a>
 								</div>
 							</div>
 						</div>
