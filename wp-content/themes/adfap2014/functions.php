@@ -13,12 +13,6 @@ register_nav_menus( array (
 
 
 
-
-
-
-
-
-
 function wpbootstrap_scripts_with_jquery()
 {
 	// Register the script like this for a theme:

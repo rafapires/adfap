@@ -2,7 +2,7 @@
 		margin: 0px;
 	}
 
-	section.seta_header h1 {
+	section.seta_header h2 {
 		margin: 0px;
 		font-size: 22px;
 	}
@@ -12,7 +12,7 @@
 	}
 
 @media (max-width: 992px) {
-	section.seta_header h1 {
+	section.seta_header h2 {
 		font-size: 18px;
 	}
 }
@@ -21,7 +21,7 @@
 	section.seta_header img {
 		width: 270px;
 	}
-	section.seta_header h1  {
+	section.seta_header h2  {
 		font-size: 13px;
 	}
 }
@@ -29,9 +29,20 @@
 ### FIM DO LOGO HEADER ###
 */
 
+div#home{
+	background: url('../img/bg-city.jpg') no-repeat fixed;
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+#home section.seta_header {
+	background-color: #ffffff;
+	padding-bottom: 40px;
+	margin-bottom: -40px;
+}
 
 #home #destaque {
-	background-color: #FFC38E;
+	background-color: rgba(255, 195, 142, 1);
 	margin: 0px -15px;
 	}
 
@@ -125,7 +136,7 @@
 	display: block;
 	width: 0;
 	height: 0;
-	border-top: 28px solid #BAFF8E;
+	border-top: 28px solid rgba(255, 255, 255, 0.85);
 	border-left: 27px solid transparent;
 	border-right: 28px solid transparent;
 	left: 50%;
@@ -138,7 +149,7 @@
 */
 
 	#blog-home {
-	background: #BAFF8E;
+	background-color: rgba(255, 255, 255, 0.85);
 	margin: 0px -15px;
 	}
 

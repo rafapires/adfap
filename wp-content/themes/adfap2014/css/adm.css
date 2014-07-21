@@ -4,7 +4,7 @@ padding: 0px;
 
 section#esquerda {
 padding: 0px;
-background: #BAFF8E;
+background: #FFF1C3;
 z-index: 100;
 }
 
@@ -51,7 +51,7 @@ border: none;
 }
 
 #esquerda div.navbar-header {
-	background-color: #BAFF8E;
+	background-color: #FFF1C3;
 }
 
 #esquerda .navbar-toggle:hover, #esquerda .navbar-toggle:focus {
@@ -64,21 +64,21 @@ background-color: #D5F8BE;
 
 #esquerda li {
 padding: 5px;
-background-color: #BAFF8E;
+background-color: #FFC38E;
 font-family: 'ubuntu';
 color: #000000;
 margin: 0px;
 text-transform: uppercase;
 font-weight: bold;
-border-bottom: solid 2px #D5F8BE;
+border-bottom: solid 2px transparent;
 }
 
 #esquerda li:hover {
-	background-color: #D5F8BE;
+	background-color: #FDF7E4;
 }
 
 #esquerda li.current-menu-item {
-	background-color: #0FB80F;
+	background-color: #DDA16C;
 	color: #ffffff;
 }
 
@@ -100,8 +100,8 @@ height: 0;
 width: 0;
 position: absolute;
 pointer-events: none;
-border-left-color: #0FB80F;
-top: 15px;
+border-left-color: #DDA16C;
+top: 40%;
 margin-top: 0px;
 }
 
@@ -116,7 +116,7 @@ margin-top: 0px;
 	}
 }
 
-#meio h2 {
+#meio h1 {
 	border-bottom: solid 3px #000;
 }
 

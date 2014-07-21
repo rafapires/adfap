@@ -15,10 +15,10 @@ $pagina_imob = get_page_by_title('Imobiliária');
 				<img src="<?php bloginfo('template_url'); ?>/img/logo-web-hi.png" class="img-responsive center-block">
 			</div>
 		</div>
-		<h1 class="text-center">Administramos seu bem como se fosse nosso</h1>
+		<h2 class="text-center">Administramos seu bem como se fosse nosso</h2>
 
 	</section>
-	<div id="destaque" class="seta_destaque">
+	<section id="destaque" class="seta_destaque">
 	<div class="container">
 		<div class="col-xs-6">
 				<a href="<?php echo get_permalink($pagina_adm->ID); ?>">
@@ -50,14 +50,7 @@ $pagina_imob = get_page_by_title('Imobiliária');
 			</div>
 				</a>
 		</div>
-	</div>
-	</div>
-<?php
-/* conteúdo dinamico */
-
-
-
-?>
+	</section>
 	<section class="seta_blog seta_footer" id="blog-home">
 		<div class="container">
 			<H2 class="text-center">BLOG</H2>
@@ -120,6 +113,7 @@ $pagina_imob = get_page_by_title('Imobiliária');
 			</div>
 		</div>
 	</section>
+	</div>
 <?php
 get_footer();
 ?>

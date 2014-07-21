@@ -48,3 +48,9 @@ padding-left: 0px !important;
 padding-right: 0px !important;
 }
 
+.frm_section_heading {
+	margin-bottom: 15px;
+}
+.frm_section_heading h3 {
+margin: 15px;
+}
