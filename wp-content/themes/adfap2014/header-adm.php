@@ -15,7 +15,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" type="text/css" media="all" />
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu|Source+Code+Pro|Raleway' rel='stylesheet' type='text/css' medial="all">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu|Source+Code+Pro|Raleway' rel='stylesheet' type='text/css' media="all">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
     <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>-->
@@ -58,7 +58,7 @@
     <?php
       wp_nav_menu(
         array(
-          'theme_location'  =>  'blog-menu',
+          'theme_location'  =>  'main-menu',
           'container'       =>  false,
           'items_wrap'      =>  '<ul id="%1$s" class="%2$s nav nav-pills nav-stacked">%3$s</ul>'
           )

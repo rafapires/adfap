@@ -2,14 +2,18 @@
 		margin: 0px;
 	}
 
-	section.seta_header h1 {
+	section.seta_header h2 {
 		margin: 0px;
-		font-size: 30px;
+		font-size: 22px;
+	}
+
+	section.seta_header .img-responsive{
+		max-width: 70%;
 	}
 
 @media (max-width: 992px) {
-	section.seta_header h1 {
-		font-size: 24px;
+	section.seta_header h2 {
+		font-size: 18px;
 	}
 }
 
@@ -17,43 +21,86 @@
 	section.seta_header img {
 		width: 270px;
 	}
-	section.seta_header h1  {
+	section.seta_header h2  {
 		font-size: 13px;
 	}
 }
+/*
+### FIM DO LOGO HEADER ###
+*/
 
+div#home{
+	background: url('../img/bg-city.jpg') no-repeat fixed;
+    background-position: center top;
+    background-size: 100% auto;
+}
 
-	div#destaque {
-	background-color: #FFC38E;
+#home section.seta_header {
+	background-color: #ffffff;
+	padding-bottom: 40px;
+	margin-bottom: -40px;
+}
+
+#home #destaque {
+	background-color: rgba(255, 195, 142, 1);
 	margin: 0px -15px;
 	}
 
-	#destaque .thumbnail {
-	background-color: rgba(0, 0, 0, 0);
-	border: none;
-	}
+#home #destaque a{
+	color: inherit;
+}
+#home #destaque a:hover{
+	color: inherit;
+	text-decoration: none;
+}
 
-	#destaque img.img-circle {
-	padding: 18px;
-	width: 50%;
-	}
-
-	div.caption.text-center {
-	padding: 0px;
-	}
-
-	#destaque h1 {
-	margin: 7px 0px 0px;
-	}
-
-	div#destaque img {
-	background-color: #fff;
-	}
-
-	#destaque .container {
+#home #destaque .container {
 	margin-top: 40px;
 	padding-top: 30px;
 	}
+
+#destaque a:hover > .thumbnail {
+	background-color: #DDA16C;
+}
+
+#destaque a:hover > .thumbnail > h1 {
+	background-color: #FFC38E;
+}
+
+#destaque .thumbnail {
+	background-color: transparent;
+	border: none;
+	min-height: 300px;
+
+}
+
+#destaque img {
+	background-color: #fff;
+	margin: 10px;
+	padding: 10%;
+	width: 80%;
+}
+
+#destaque .thumbnail .col-xs-5 {
+	padding-right: 0px;
+}
+
+#destaque .thumbnail .col-xs-7 {
+	padding-left: 0px;
+}
+
+
+#destaque .thumbnail h1 {
+	background-color: #DDA16C;
+	margin-top: 0px;
+	padding: 10px 0px;
+	min-height: 98px;
+}
+
+/*
+### FIM DO DESTAQUE ###
+*/
+
 
 	.seta_header:after {
 	content: "";
@@ -89,7 +136,7 @@
 	display: block;
 	width: 0;
 	height: 0;
-	border-top: 28px solid #BAFF8E;
+	border-top: 28px solid rgba(255, 255, 255, 0.85);
 	border-left: 27px solid transparent;
 	border-right: 28px solid transparent;
 	left: 50%;
@@ -97,10 +144,30 @@
 	position: absolute;
 	z-index: 15;
 	}
+/*
+### FIM SETAS ###
+*/
 
-	section#blog-home {
-	background: #BAFF8E;
+	#blog-home {
+	background-color: rgba(255, 255, 255, 0.85);
 	margin: 0px -15px;
+	}
+
+	#blog-home a{
+	color: inherit;
+	}
+
+	#blog-home a:hover{
+	color: inherit;
+	text-decoration: none;
+	}
+
+	#blog-home .thumbnail:hover  {
+		background-color: rgba(256,256,256,0.75);		
+	}
+
+	#blog-home .thumbnail:hover div.blog-thumb{
+		opacity: 0.5;
 	}
 
 	#blog-home h2 {
@@ -113,75 +180,47 @@
 	margin-bottom: 8px;
 	}
 
+	div.blog-thumb {
+	overflow: hidden;
+	height: 150px;
+	width: 100%;
+	background: transparent;
+	border-bottom: solid 4px #FFC38E;
+	}
+
 	#blog-home div.thumbnail {
 	padding: 0px;
 	border: none;
 	background: #fff;
 	border-radius: 0px;
+	margin-bottom: 0px;
 	}
 
-	div.blog-thumb {
-	overflow: hidden;
-	height: 150px;
-	width: 100%;
-	background: black;
-	border-bottom: solid 4px #FFC38E;
-	}
-
-	#blog-home div.caption {
-	padding: 0px;
-	}
-
-	#blog-home .caption h2 {
-	margin: 2px 0px 4px;
-	font-size: larger;
-	padding: 16px 20px 6px;
+	#blog-home .thumbnail h2 {
+	margin: 10px;
 	color: #FFC38E;
-	text-transform: uppercase;
-	line-height: 25px;
+	font-size: 23px;
 	}
 
-	#blog-home .caption p {
-	padding: 10px 20px 20px;
-	margin: 0px;
-	font-weight: lighter;
-	line-height: 24px;
+	#blog-home .thumbnail p {
+	padding: 0px 10px 10px;
+	color: inherit;
 	min-height: 180px;
+	max-height: 180px;
+	overflow: hidden;
 	}
 
-	#blog-home img.img-responsive {
-	min-width: 100%;
+	#blog-home .thumbnail div.row {
+	margin: 0px;
+	background-color: #FFC38E;
 	}
 
-	div.blog-home-coment {
-	display: block;
-	width: 50%;
-	text-align: center;
-	float: left;
-	background: #aaa;
-	padding: 6px 0px;
-	font-family: monospace;
+	#blog-home .link:hover {
+		background-color: #DB985E;
 	}
 
-
-	div.blog-home-leia {
-	display: block;
-	width: 50%;
-	text-align: center;
-	float: left;
-	background: #aaa;
-	padding: 6px 0px;
-	height: 32px;
-	border-left: 1px solid #fff;
-	}
-
-	.cor {
-		color: #777;
-		background-color: #FFC38E;
-	}
-
-	div.blog-home-leia a:hover {
-		color: #FFC38E;
+	#blog-home .link {
+		padding: 10px 0px;
 	}
 
 
