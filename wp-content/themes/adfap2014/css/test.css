@@ -1,0 +1,17 @@
+#esquerda {
+	background-color: green;
+}
+
+#centro {
+	background-color: orange;
+}
+
+#direita {
+	background-color: red;
+}
+
+@media (min-width: 768px) {
+	#esquerda {
+		height: 100% !important;
+	}
+}
