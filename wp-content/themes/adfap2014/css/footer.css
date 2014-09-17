@@ -1,0 +1,22 @@
+#footer h3 {
+border-bottom: solid 3px #BBBBBB;
+}
+
+#footer h2 {
+margin: 0px;
+font-size: 22px;
+color: #bbbbbb;
+}
+
+p.creditos {
+font-size: 12px;
+}
+
+#footer a{
+	text-decoration: none;
+	color: inherit;
+}
+
+section#footer {
+	margin: 0px;
+}
