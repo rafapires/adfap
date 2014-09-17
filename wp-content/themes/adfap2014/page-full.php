@@ -22,4 +22,4 @@ get_header($meta['page-group'][0]);
 ?>
 </section>
 
-<?php get_footer(); ?>
+<?php get_footer(substr(get_page_template_slug( $post->ID ),5,-4));?>

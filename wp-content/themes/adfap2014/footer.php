@@ -33,30 +33,30 @@
 				<h3>SIGA-NOS</h3>
 				<div class="row">
 					<div class="col-sm-3">
-						<a href="#">
+						<a href="<?php echo home_url(); ?>/midia-sociais">
 						<img src="<?php bloginfo('template_url'); ?>/img/facebook.png" class="img-responsive center-block">
 						</a>
 					</div>
 					<div class="col-sm-3">
-						<a href="#">
+						<a href="<?php echo home_url(); ?>/midia-sociais">
 						<img src="<?php bloginfo('template_url'); ?>/img/googleplus.png" class="img-responsive center-block">
 						</a>
 					</div>
 					<div class="col-sm-3">
-						<a href="#">
+						<a href="<?php echo home_url(); ?>/midia-sociais">
 						<img src="<?php bloginfo('template_url'); ?>/img/linkedin.png" class="img-responsive center-block">
 						</a>
 					</div>
 					<div class="col-sm-3">
-						<a href="#">
+						<a href="<?php echo home_url(); ?>/midia-sociais">
 						<img src="<?php bloginfo('template_url'); ?>/img/youtube.png" class="img-responsive center-block">
 						</a>
 					</div>
 				</div>
 				<h3>ENDEREÇO</h3>
-				<p>Praça João Mendes, 42 Cj.79 - CEP:01500-001 - CENTRO - São Paulo - SP</p>
+				<p>Praça João Mendes, 42 Cjs. 78 e 79 - CEP:01500-001<br />CENTRO - São Paulo - SP</p>
 				<h3>CONTATOS</h3>
-				<p>Tel: (11)3106-4817</p>
+				<p>Tel: (11)3106-4817 | <a href="mailto:atendimento@adfap.com.br" target="_blank">atendimento@adfap.com.br</a></p>
 			</div>
        	<p class="creditos pull-right">ADFAP © Company 2013 | desenvolvido por <a href="http://br.linkedin.com/in/rafaelpiressp/" target="_blank">Rafael Pires</a></p>
 		</div>

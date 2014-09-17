@@ -55,3 +55,7 @@ padding-right: 0px !important;
 .frm_section_heading h3 {
 margin: 15px;
 }
+
+section#meio { /* seta um mínimo para que o footer não fique no meio da tela */
+min-height: 270px;
+}
