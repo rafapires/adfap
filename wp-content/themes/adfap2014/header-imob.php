@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>ADFAP | Imobiliária</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -41,7 +41,7 @@
   <div class="container-fluid">
   <a class="logo center-block" href="<?php echo site_url(); ?>">
       <img src="<?php bloginfo('template_url'); ?>/img/logo-web-hi.png" class="img-responsive center-block">
-    <h1>Administradora de Condomínio</h1>
+    <h1>Imobiliária</h1>
   </a>
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -58,7 +58,7 @@
     <?php
       wp_nav_menu(
         array(
-          'theme_location'  =>  'page-adm',
+          'theme_location'  =>  'page-imob',
           'container'       =>  false,
           'items_wrap'      =>  '<ul id="%1$s" class="%2$s nav nav-pills nav-stacked">%3$s</ul>'
           )

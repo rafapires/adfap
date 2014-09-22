@@ -7,7 +7,9 @@ add_filter('show_admin_bar', '__return_false');
 register_nav_menus( array (
 		'main-menu' => 'Menu Principal',
 		'foot-menu'	=> 'Footer Menu',
-		'blog-menu' => 'Blog Menu'
+		'blog-menu' => 'Blog Menu',
+		'page-adm'	=> 'Administradora de Condomínios',
+		'page-imob'	=>	'Imobiliária'
 		) );
 
 
