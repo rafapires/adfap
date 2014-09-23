@@ -6,7 +6,7 @@ $meta = get_post_meta( get_the_ID() );
 get_header('home');
 
 $pagina_adm = get_page_by_title('Administradora de condomínio');
-$pagina_imob = get_page_by_title('Imobiliária');
+$pagina_imob = get_page_by_title('Imobiliária | Como atuamos');
 
 ?>
 	<section class="seta_header">
