@@ -68,3 +68,12 @@ background-color: green;
 #esquerda li.down:hover {
 background: lightgreen;
 }
+
+.btn-giant {
+font-size: 29px;
+padding: 11px;
+text-align: center;
+line-height: 100%;
+font-weight: bold;
+color: black;
+}
