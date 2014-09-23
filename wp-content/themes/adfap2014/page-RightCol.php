@@ -4,6 +4,8 @@ Template Name: RightCol
 */
 $meta = get_post_meta( get_the_ID() );
 get_header($meta['page-group'][0]);
+$idObj = get_category_by_slug($meta['page-group'][0]); 
+$page_category=$idObj->term_id;
 ?>
 
 <section id="meio" class="col-sm-7 col-sm-offset-2">
@@ -19,6 +21,7 @@ get_header($meta['page-group'][0]);
 ?>
 
 </section>
+<div class="row">
 <section id='direita' class='col-sm-3'>
 	<h3 class="sub-titulo">Blogs</h3>
 	<ul class="nav nav-pills nav-stacked">
@@ -26,7 +29,7 @@ get_header($meta['page-group'][0]);
 	$args = array(
 	    'numberposts'	=> 4,
 	    'offset'		=> 0,
-	    'category' 		=> 3,
+	    'category' 		=> $page_category,
 	    'orderby' 		=> 'post_date',
 	    'order' 		=> 'DESC',
 	    'post_type' => 'post',
@@ -62,8 +65,9 @@ get_header($meta['page-group'][0]);
 	?>
 	</ul>
 </section>
+</div>
 
 
 
 
-<? get_footer(); ?>
+<?php get_footer('full'); ?>
