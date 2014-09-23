@@ -59,3 +59,12 @@ margin: 15px;
 section#meio { /* seta um mínimo para que o footer não fique no meio da tela */
 min-height: 270px;
 }
+
+#esquerda li.down { /* coloca último item do menu da paginas no canto inferior */
+margin-top: 100%;
+background-color: green;
+}
+
+#esquerda li.down:hover {
+background: lightgreen;
+}

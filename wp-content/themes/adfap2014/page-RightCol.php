@@ -21,6 +21,7 @@ $page_category=$idObj->term_id;
 ?>
 
 </section>
+<div class="row">
 <section id='direita' class='col-sm-3'>
 	<h3 class="sub-titulo">Blogs</h3>
 	<ul class="nav nav-pills nav-stacked">
@@ -64,8 +65,9 @@ $page_category=$idObj->term_id;
 	?>
 	</ul>
 </section>
+</div>
 
 
 
 
-<? get_footer(); ?>
+<?php get_footer('full'); ?>
