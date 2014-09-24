@@ -31,7 +31,7 @@ add_filter('frm_validate_field_entry', 'your_custom_validation', 20, 3);
     $first_value = $_POST['item_meta'][156]; //change 156 to the ID of the first field
    
     if ( $first_value != $value && !empty($value) ) {
-      $errors['field'. $field->id] = 'The email addresses entered do not match.';//Customize your error message
+      $errors['field'. $field->id] = 'Este email não confere com o digitado.';//Customize your error message
     }else{
       $_POST['item_meta'][$field->id] = ''; //if it matches, this clears the second field so it won't be saved
     }
