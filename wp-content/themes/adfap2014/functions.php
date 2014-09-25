@@ -24,5 +24,18 @@ function wpbootstrap_scripts_with_jquery()
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 
-
+// ######## FORMIDABLE CUSTOMIZATIONS #############
+add_filter('frm_validate_field_entry', 'your_custom_validation', 20, 3);
+ function your_custom_validation($errors, $field, $value){
+   if ($field->id == 157){ //change 157 to the ID of the confirmation field (second field)
+    $first_value = $_POST['item_meta'][156]; //change 156 to the ID of the first field
+   
+    if ( $first_value != $value && !empty($value) ) {
+      $errors['field'. $field->id] = 'Este email não confere com o digitado.';//Customize your error message
+    }else{
+      $_POST['item_meta'][$field->id] = ''; //if it matches, this clears the second field so it won't be saved
+    }
+ }
+ return $errors;
+ }
 ?>
